@@ -24,7 +24,7 @@ $(document).ready(function() {
         var id = setInterval(function() {
         counter--;
         if(counter > 0) {
-            var msg = 'Ø¬Ø§Ø±ÙŠ ØªØ¬Ù‡ÙŠØ² Ø§Ù„Ø±Ø§Ø¨Ø· Ø®Ù„Ø§Ù„ ' + counter + ' Ø«ÙˆØ§Ù†ÙŠ';
+            var msg = 'جارى تجهيز الرابط خلال „ ' + counter + ' ثوانى';
             $('#notice').text(msg);
         } else {
             $('#notice').hide();
